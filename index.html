@@ -1,0 +1,38 @@
+<!-- write valid and semantic HTML that includes a form that has the following fields:
+Email
+Password
+Github Username
+Radio buttons with the following options: Enterprise, Pro, Free
+A checkbox with the words "Remember Me" next to it. -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is a semantic HTML checkpoint</title>
+  </head>
+  <body>
+    <label for="email">Email</label><br>
+    <input type="email" name="emailAddress" value="" placeholder="put your email here"><br>
+    <br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" value="" placeholder="put your password here"><br>
+    <br>
+    <label for="username">Username</label><br>
+    <input type="text" name="username" value="" placeholder="put your username here"><br>
+    <br>
+    <input id="option-enterprise" type="radio" name="option" value="enterprise">
+    <label for="option-enterprise">Enterprise</label><br>
+
+    <input id="option-pro" type="radio" name="option" value="pro">
+    <label for="option-pro">Pro</label><br>
+
+    <input id="option-free" type="radio" name="option" value="free">
+    <label for="option-free">Free</label><br>
+    <br>
+    <input id="words" type="checkbox" name="words" value="words">
+    <label for="words">Remember Me</label><br>
+    <br>
+    <button type="submit" name="button">Submit</button>
+  </body>
+</html>
